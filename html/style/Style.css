@@ -1,0 +1,84 @@
+/* Configurações gerais */
+
+body{
+    background-color: black;
+    font-family: 'Segoe UI';
+}
+.flexbox{
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Configurações do imagem */
+#div_img{
+    background: url("../imagens/imagem_home.jpg") no-repeat center;
+    width: 62%;
+    height: 657px;
+}
+.imagem_logo{
+    width: 160px;
+    display: flex;
+    margin: 0 auto;   
+}
+
+/* Configurações do input */
+.login{
+    margin: 4%;
+}
+.login p{
+    color: white;
+    margin: 47px 20px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.input{
+    padding: 15px 150px 5px 15px;
+    border-radius: 4px;
+}
+.input1{
+    margin:60px 20px 5px ;
+}
+.input2{
+    margin:10px 20px 40px;
+}
+.input label{
+
+}
+.bnt{
+    box-sizing: border-box;
+    margin: 40px 0px 10px;
+    background-color: #2580A8 ;
+    padding: 10px 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    margin: 0 auto;
+    color: black;
+}
+.bnt:hover{
+    background-color: rgb(23, 179, 179);
+    transition:1s;
+    padding: 18px 110px;
+
+}
+.center{
+    display: block;
+}
+.text_left{
+    text-align: left;
+}
+/* Links */
+.link_cadastro{
+    text-align: center;
+    margin: 15px 0;    
+}
+.login li{
+    display: inline-block;    
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
